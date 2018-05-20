@@ -158,7 +158,7 @@ figcaption {
    margin: auto;
 }
 
-form {
+.form-row {
    margin: 5px 15px 15px 15px;
    display: flex;
    justify-content: center;
@@ -166,13 +166,13 @@ form {
    text-align: left;
 }
 
-label {
+.form-row label {
    margin-bottom: 5px;
    font-size: 18px;
 }
 
-input[type='text'],
-input[type='email'],
+.form-row input[type='text'],
+.form-row input[type='email'],
 textarea {
    background-color: #262626; /*dark grey*/
    border: 1px solid #9bbe4b;  /*lime green */
@@ -183,8 +183,8 @@ textarea {
    font-size: 16px;
 }
 
-input[type='text']:focus,
-input[type='email']:focus,
+.form-row input[type='text']:focus,
+.form-row input[type='email']:focus,
 textarea:focus {
    background-color: #4c4c4c;
    outline: none;
@@ -194,14 +194,14 @@ textarea {
    resize: none;
 }
 
-input[type='text']:invalid,
-input[type='email']:invalid {
+.form-row input[type='text']:invalid,
+.form-row input[type='email']:invalid {
    border: 2px solid #d55c5f; /*red*/
    color: #d55c5f;  /*red*/
    box-shadow: none;
 }
 
-button {
+.form-row button {
    font-family: 'Cormorant Garamond', serif;
    font-size: 18px;
    font-weight: bold;
@@ -215,7 +215,7 @@ button {
    cursor: pointer;
 }
 
-button:hover {
+.form-row button:hover {
    color: #9bbe4b;  /*lime green */;
 }
 

@@ -28,26 +28,42 @@
          </div>
 
          <form action='https://formspree.io/amiejcreations@gmail.com' method='POST' class='form-container'>
-            <label for='name'>First Name</label>
-            <input type='text' 
-                   name='name'/>
+            <div class='form-row'>
+               <label for='name'>First Name</label>
+               <input id='name' 
+                      type='text' 
+                      name='name'/>
+            </div>
+            <div class='form-row'>
+               <label for='name'>Last Name</label>
+               <input id='name'
+                      type='text' 
+                      name='name'/>
+            </div>
 
-            <label for='name'>Last Name</label>
-            <input type='text' 
-                   name='name'/>
+            <div class='form-row'>
+               <label for='email'>Email Address</label>
+               <input id='email' 
+                      type='email'
+                      name='email'/>
+            </div>
 
-            <label for='email'>Email Address</label>
-            <input  type='email'
-                    name='email'/>
+            <div class='form-row'>
+               <label for='subject'>Subject</label>
+               <input id='subject'
+                      type='text' 
+                      name='subject'/>
+            </div>
 
-            <label for='subject'>Subject</label>
-            <input type='text' 
-                   name='subject'/>
+            <div class='form-row'>
+               <label for='message'>Message</label>
+               <textarea id='message'
+                         name='message'></textarea>
+            </div>
 
-            <label for='message'>Message</label>
-            <textarea name='message'></textarea>
-
-            <button>Submit</button>
+            <div class='form-row'>
+               <button>Submit</button>
+            </div>
          </form>
       </article>
 
